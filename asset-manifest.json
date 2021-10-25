@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.3d62d93d.chunk.css",
+    "main.js": "/memory-card/static/js/main.c26e6c8a.chunk.js",
+    "main.js.map": "/memory-card/static/js/main.c26e6c8a.chunk.js.map",
+    "runtime-main.js": "/memory-card/static/js/runtime-main.69211198.js",
+    "runtime-main.js.map": "/memory-card/static/js/runtime-main.69211198.js.map",
+    "static/js/2.82f0b4e9.chunk.js": "/memory-card/static/js/2.82f0b4e9.chunk.js",
+    "static/js/2.82f0b4e9.chunk.js.map": "/memory-card/static/js/2.82f0b4e9.chunk.js.map",
+    "index.html": "/memory-card/index.html",
+    "static/css/main.3d62d93d.chunk.css.map": "/memory-card/static/css/main.3d62d93d.chunk.css.map",
+    "static/js/2.82f0b4e9.chunk.js.LICENSE.txt": "/memory-card/static/js/2.82f0b4e9.chunk.js.LICENSE.txt",
+    "static/media/angeloak.e7b7a995.jpg": "/memory-card/static/media/angeloak.e7b7a995.jpg",
+    "static/media/baobab.918461e6.jpg": "/memory-card/static/media/baobab.918461e6.jpg",
+    "static/media/dragonblood.d6c7cb16.jpg": "/memory-card/static/media/dragonblood.d6c7cb16.jpg",
+    "static/media/ginko.53e2520a.jpg": "/memory-card/static/media/ginko.53e2520a.jpg",
+    "static/media/japanesemaple.081d65fc.jpg": "/memory-card/static/media/japanesemaple.081d65fc.jpg",
+    "static/media/methuselah.2531cd9e.jpg": "/memory-card/static/media/methuselah.2531cd9e.jpg",
+    "static/media/pando.eb9cf8d0.jpg": "/memory-card/static/media/pando.eb9cf8d0.jpg",
+    "static/media/rhododendron.d58db477.jpg": "/memory-card/static/media/rhododendron.d58db477.jpg",
+    "static/media/sakura.5a32cf61.jpg": "/memory-card/static/media/sakura.5a32cf61.jpg",
+    "static/media/sequoia.b5cc8fa4.jpg": "/memory-card/static/media/sequoia.b5cc8fa4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69211198.js",
+    "static/js/2.82f0b4e9.chunk.js",
+    "static/css/main.3d62d93d.chunk.css",
+    "static/js/main.c26e6c8a.chunk.js"
+  ]
+}
