@@ -1,0 +1,47 @@
+.App, main, header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.App {
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  padding: 30px 20px;
+  flex: 0;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.score-counter {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main {
+  flex: 1;
+  padding: 30px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 30px;
+}
+
+@media (max-width: 600px) {
+  header {
+    gap: 50px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 422px) {
+  header {
+    gap: 30px;
+    padding: 10px 20px;
+  }
+}

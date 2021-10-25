@@ -1,5 +1,7 @@
 import Cards from './components/Cards';
 import React, { useEffect, useState } from 'react'
+import './style/App.css'
+import {Angeloak, Baobab, Dragonblood, Ginko, Japanesemaple, Methuselah, Pando, Rhodododendron, Sakura, Sequoia} from './index.js'
 
 function App() {
 
@@ -8,9 +10,17 @@ function App() {
   const [selectedCards, setSelectedCards] = useState([1,2,3])
   const [cardData, setCardData] = useState(
     [
-      {name: 'Halloween', imgUrl: 'https://theawesomedaily.com/wp-content/uploads/2017/09/halloween-pictures-17-1.jpg'},
-      {name: 'Halloween2', imgUrl: 'https://theawesomedaily.com/wp-content/uploads/2017/09/halloween-pictures-17-1.jpg'},
-      {name: 'Halloween3', imgUrl: 'https://theawesomedaily.com/wp-content/uploads/2017/09/halloween-pictures-17-1.jpg'},
+      {name: 'Angel Oak', imgUrl: Angeloak},
+      {name: 'Baobab', imgUrl: Baobab},
+      {name: 'Dragon Blood', imgUrl: Dragonblood},
+      {name: 'Ginko', imgUrl: Ginko},
+      {name: 'Japanese Maple', imgUrl: Japanesemaple},
+      {name: 'Methuselah', imgUrl: Methuselah},
+      {name: 'Pando', imgUrl: Pando},
+      {name: 'Rhododendron', imgUrl: Rhodododendron},
+      {name: 'Sakura', imgUrl: Sakura},
+      {name: 'Sequoia', imgUrl: Sequoia},
+      
     ]
   )
 
@@ -53,7 +63,7 @@ function App() {
     if (currentScore>bestScore) {
       setBestScore(currentScore)
     }
-    if (currentScore === 3) {
+    if (currentScore === document.getElementsByTagName('img').length) {
       alert('Winner')
     }
   },
@@ -61,16 +71,14 @@ function App() {
   [currentScore]
   )
 
-  const checkIfCardUniqueSelection = (e) => {
-    console.log(e.target.name)
-  }
-
   return (
     <div className="App">
       <header className="App-header">
         <h1>Memory Card</h1>
-        <p>Current Score: {currentScore}</p>
-        <p>Best Score: {bestScore}</p>
+        <div class='score-counter'> 
+          <p>Current Score: {currentScore}</p>
+          <p>Best Score: {bestScore}</p>
+        </div>
       </header>
       <main>
         {generateAllCards()}
